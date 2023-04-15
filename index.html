@@ -21,11 +21,11 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light" >
-        <div class="container-fluid" >
+        <div class="container-fluid" style="justify-content: space-between;">
           <a class="navbar-brand" href="#">My Logo</a>
           
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav  me-auto justify-content-between">
+            <div class="navbar-nav  me-auto justify-content-between" >
               <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
               <a class="nav-link" href="#">About</a>
               <a class="nav-link" href="#">Contact</a>
@@ -47,35 +47,53 @@
            <h3 class="motto" >
              LET’S CONNECT
            </h3>
-           <div class="social-media">
+           <div class="row">
+           <div class="social-media" style="column-gap: 4px;">
              <ul>
-                 <li><a ><img class="twitter icons"src="images\Vector.svg" alt="twitter"></a></li>
-                 <li><a><img class="linkedin icons" src="images\Linkedin icon@2x (1).png" alt="linkedin"></a></li>
-                 <li><a><img class="vector-1 icons" src="images\Vector (1).svg" alt="Medium"></a></li>
-                 <li><a><img class="vector-2 icons" src="images\Vector (2).svg" alt="github"><a></a></li>
-                 <li><a><img class="vector-3 icons" src="images\Vector (3).svg" alt="AngelList"><a></li>
-             </ul>              
-            
+              <div class="col-lg-1">  <li><a ><img class="twitter icons"src="images\Vector.svg" alt="twitter"></a></li></div> 
+              <div class="col-lg-1">  <li><a><img class="linkedin icons" src="images\Linkedin icon@2x (1).png" alt="linkedin"></a></li></div>
+              <div class="col-lg-1">  <li><a><img class="vector-1 icons" src="images\Vector (1).svg" alt="Medium"></a></li></div>
+              <div class="col-lg-1"> <li><a><img class="vector-2 icons" src="images\Vector (2).svg" alt="github"><a></a></li></div>
+               <div class="col-lg-1"> <li><a><img class="vector-3 icons" src="images\Vector (3).svg" alt="AngelList"><a></li></div>
+             </ul>             
            </div>
+          </div>
 
-         </div>      
-         <div class="card" style="width: 40rem;list-style: none;">
-            <img src="images\Snapshoot Portfolio4.png" class="card-img-top width:20%;"  alt="Snapshoot-Portfolio">
-            <div class="card-body">
-              <h5 class="card-title">Tonic</h5>             
+         </div> 
+         <div class="row">    
+         <div class="card" style="list-style: none;margin-top: 50px;">
+           <div class="col-lg-6"> <img src="images\Snapshoot Portfolio4.png" class="card-img-top "   alt="Snapshoot-Portfolio"></div>
+            <div class="col-lg-6"><div class="card-body">
+              <h5 class="card-title">Tonic</h5>                        
               
               <div class="canopy-backend">
-              <ul>
+                <div class="row">
+              <ul >
+                <div class="col-lg-3">
               <li class="canopy">CANOPY</li>
-              <li class="counter"><img src="images\Counter.png" alt="Counter"></li>
-              <li class="back-end">Back End Dev</li>
-              <li class="counter"><img src="images\Counter.png" alt="Counter"></li>
-              <li class="date">2015</li>
+               </div>
+               <div class="col-lg-1"><li class="counter"><img src="images\Counter.png" alt="Counter"></li></div>
+               <div class="col-lg-4"><li class="back-end">Back End Dev</li></div>
+                <div class="col-lg-1"><li class="counter"><img src="images\Counter.png" alt="Counter"></li></div>
+                <div class="col-lg-3"><li class="date">2015</li></div>
               </ul>
+            </div>
             </div>
           </div> 
            <p class="daily-read">A daily selection of privately personalized reads; no accounts<br> or sign-ups required.</p>
+           
+              <span class="badge rounded-pill bg-primary">html</span>
+              <span class="badge rounded-pill bg-primary">css</span>
+              <span class="badge rounded-pill bg-primary">javascript</span>
+              <div><button type="button" class="btn btn-outline-primary">See project</button> </div>
+            </div>
             
+          </div>
+            
+            
+            
+            
+          </div> 
           
          
  </section>
